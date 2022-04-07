@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practice of html</title>
+    <link rel="stylesheet" href="style.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
@@ -29,7 +30,7 @@
     <!-- lists -->
 
     <!-- unordered list -->
-    <ul type="square">
+    <ul type="circle">
 <li>1st point</li>
 <li>2nd point</li>
 <li>3rd point</li>
@@ -42,7 +43,7 @@
         <dd>the things placed inside the opening tags without quotes on it are called, these are extra information about the tags attributes</dd>
     </dl> 
 
-    <ol type="i">
+    <ol type="a">
         <li>1st point</li>
         <li>2nd point</li>
         <li>3rd point</li>
@@ -106,11 +107,11 @@ hi
 hi
 
 <!-- display image -->
-
+<br>
 <img src="https://thumbs.dreamstime.com/z/lonely-elephant-against-sunset-beautiful-sun-clouds-savannah-serengeti-national-park-africa-tanzania-artistic-imag-image-106950644.jpg" alt="Elephant image" height="150" width="150" />
 
 
-<figure>
+<figure style="border: 1px solid ;">
 <img src="https://thumbs.dreamstime.com/z/lonely-elephant-against-sunset-beautiful-sun-clouds-savannah-serengeti-national-park-africa-tanzania-artistic-imag-image-106950644.jpg" alt="Elephant image" height="150" width="150">
 <figcaption>Elephant</figcaption>
     
@@ -134,6 +135,75 @@ hi
 
 <!-- table -->
 <!-- svg and canvas -->
+<!-- audio video -->
+<!-- iframe -->
+
+<table border="10">
+    <tr>
+<th>name</th>
+<th>number</th>
+<th>address</th>
+    </tr>
+
+    <tr>
+        <td>Ayyappa</td>
+        <td>123</td>
+        <td>Gangavathi</td>
+    </tr>
+
+    <tr>
+        <td>Ayyappa</td>
+        <td>123</td>
+        <td>Gangavathi</td>
+    </tr>
+
+    <tr>
+        <td>Ayyappa</td>
+        <td>123</td>
+        <td>Gangavathi</td>
+    </tr>
+</table>
+
+<!-- scalar vector graphics - 2d pictures which are resolution responsive -->
+
+<svg width="100" height="100" style="background-color: red;">
+    <rect width="100" height="50" stroke="green" stroke-width="4" fill="yellow" />
+  </svg>
+
+  <!-- canvas -->
+  <canvas id="myCanvas" width="200" height="100" style="border: 1px solid;" ></canvas>
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0, 0);
+    ctx.lineTo(200, 100);
+    ctx.stroke();
+    </script>
+
+<!-- audi tag -->
+    <audio controls loop  muted >
+        <source src="assets/mp3File.mp3" type="audio/mpeg">
+    </audio>
+
+    <video ></video>
+
+    <audio controls muted loop controlsList="nodownload">
+        <source src="assets/mp3File.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- video tag -->
+    <video controls height="200"  muted loop controlsList="nodownload">
+        <source src="assets/screen_recorder_video_2020_04_11_10_30_47.mp4" type="video/mp4">
+    </video>
+
+    <!-- iframe - to render an html page inside an html page itself -->
+
+    <iframe src ="https://ayyappaswamyangadi.github.io/visionary-techies/" title="vision" frameborder="1" width="500" height="500">
+    </iframe>
+
+    <!-- 08-07-2022 -->
+<!-- git push and pull -->
+
 
 <div style="height: 50vh;"></div>
 </body>
