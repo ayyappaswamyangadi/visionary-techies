@@ -108,7 +108,10 @@ hi
 
 <!-- display image -->
 <br>
-<img src="https://thumbs.dreamstime.com/z/lonely-elephant-against-sunset-beautiful-sun-clouds-savannah-serengeti-national-park-africa-tanzania-artistic-imag-image-106950644.jpg" alt="Elephant image" height="150" width="150" />
+
+<img src="https://thumbs.dreamstime.com/z/lonely-elephant-against-sunset-beautiful-sun-clouds-savannah-serengeti-national-park-africa-tanzania-artistic-imag-image-106950644.jpg" alt="Elephant image" height="500" width="500" />
+
+<!-- <input type="image" src="https://thumbs.dreamstime.com/z/lonely-elephant-against-sunset-beautiful-sun-clouds-savannah-serengeti-national-park-africa-tanzania-artistic-imag-image-106950644.jpg"> -->
 
 
 <figure style="border: 1px solid ;">
@@ -262,9 +265,37 @@ hi
 
 </form>
 
-<!-- 09-04-2022 -->
+<!-- 11-04-2022 -->
 <!-- css -->
+<!-- popUp Image -->
+
+<!-- popup image html part start -->
+<div class="popUp imageStyling">
+    <div class="close">X</div>
+<img class=" styling" src="https://thumbs.dreamstime.com/z/lonely-elephant-against-sunset-beautiful-sun-clouds-savannah-serengeti-national-park-africa-tanzania-artistic-imag-image-106950644.jpg" alt="Elephant image" height="500" width="500" />
+</div>
+<!-- popup image html part end -->
+
+
 <div style="height: 50vh;"></div>
+
+
+<!-- pop image js part start -->
+<script>
+    let Ari = document.querySelector('.popUp')
+    let close1 = document.querySelector('.close')
+
+    window.onload =  ()=>{
+        Ari.style.display = "block"
+    }
+
+    close1.addEventListener('click', ()=>{
+        Ari.style.display = "none"
+
+    })
+</script>
+<!-- pop image js part end -->
+
 </body>
 </html>
 
