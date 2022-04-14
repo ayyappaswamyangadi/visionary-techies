@@ -15,6 +15,38 @@
 </head>
 <body>
 
+    <!-- 11-04-2022 -->
+<!-- popUp Image -->
+
+<!-- popup image html part start -->
+<div class="popUp imageStyling">
+    <div class="close">X</div>
+<img class=" styling" src="https://thumbs.dreamstime.com/z/lonely-elephant-against-sunset-beautiful-sun-clouds-savannah-serengeti-national-park-africa-tanzania-artistic-imag-image-106950644.jpg" alt="Elephant image" height="500" width="500" />
+</div>
+<button onclick="click1()" class="showMe">Click me</button>
+<!-- popup image html part end -->
+
+
+<!-- pop image js part start -->
+<script>
+    let Ari = document.querySelector('.popUp')
+    let close1 = document.querySelector('.close')
+    const button = document.querySelector('.showMe');
+
+    // window.onload =  ()=>{
+    //     Ari.style.display = "block"
+    // }
+
+    function click1(){
+        Ari.classList.toggle('popUp')
+    }
+
+    close1.addEventListener('click', ()=>{
+        Ari.classList.toggle('popUp')
+
+    })
+</script>
+
 <!-- heading -->
 
     <h1>hi</h1>
@@ -31,10 +63,10 @@
 
     <!-- unordered list -->
     <ul type="circle">
-<li>1st point</li>
-<li>2nd point</li>
-<li>3rd point</li>
-<li>4th point</li>
+<li>st point</li>
+<li>nd point</li>
+<li>rd point</li>
+<li>th point</li>
     </ul>
 
     <!-- ordered list -->
@@ -43,11 +75,11 @@
         <dd>the things placed inside the opening tags without quotes on it are called, these are extra information about the tags attributes</dd>
     </dl> 
 
-    <ol type="a">
-        <li>1st point</li>
-        <li>2nd point</li>
-        <li>3rd point</li>
-        <li>4th point</li>
+    <ol  id="list" style="list-style:lower-alpha">
+        <li>st point</li>
+        <li>nd point</li>
+        <li>rd point</li>
+        <li>th point</li>
     </ol>
 
     <!-- description list -->
@@ -127,7 +159,7 @@ hi
 
 <p>syntax</p>
 
-<a href="https://www.amazon.com" target="_parent">amazon</a>
+<a href="learningCSS.html" target="_parent">Open CSS part</a>
 
 
 <section>div and section both are same</section>
@@ -265,36 +297,19 @@ hi
 
 </form>
 
-<!-- 11-04-2022 -->
-<!-- css -->
-<!-- popUp Image -->
 
-<!-- popup image html part start -->
-<div class="popUp imageStyling">
-    <div class="close">X</div>
-<img class=" styling" src="https://thumbs.dreamstime.com/z/lonely-elephant-against-sunset-beautiful-sun-clouds-savannah-serengeti-national-park-africa-tanzania-artistic-imag-image-106950644.jpg" alt="Elephant image" height="500" width="500" />
-</div>
-<!-- popup image html part end -->
+<!-- pop image js part end -->
+
+<!-- 14-04-2022 -->
+<!-- css basics - done-->
+<!-- rel - need to-->
+<!-- padding in anchor tag  - need to-->
+
+
+
 
 
 <div style="height: 50vh;"></div>
-
-
-<!-- pop image js part start -->
-<script>
-    let Ari = document.querySelector('.popUp')
-    let close1 = document.querySelector('.close')
-
-    window.onload =  ()=>{
-        Ari.style.display = "block"
-    }
-
-    close1.addEventListener('click', ()=>{
-        Ari.style.display = "none"
-
-    })
-</script>
-<!-- pop image js part end -->
 
 </body>
 </html>

@@ -1,0 +1,85 @@
+/* universal selector*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  list-style: none;
+  
+}
+
+/* tag selector */
+
+a{
+    font-size: 50px;
+    /* background-color: aqua; */
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+body{
+    background-color: red;
+}
+
+p{
+    background-color: green;
+    margin: 5px;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+/* id selectors */
+
+#Heading2{
+    color: brown;
+    background-color: aquamarine;
+}
+
+#block{
+    color: blue;
+}
+
+/* class selectors */
+.inline{
+    color: yellow;
+    font-weight: 900;
+}
+
+/* attribute selectors */
+
+[Ari]{
+    background-color: pink;
+    border-radius:10px ;
+    margin: 15px;
+}
+
+/* precedence of styling or importance */
+
+/* *{
+    background-color: blue;
+}
+
+header{
+    background-color: green;
+} */
+
+
+
+/* #header{
+    background-color: pink;
+} */
+
+/* .header{
+    background-color: green;
+}
+
+[header]{
+    background-color: brown;
+} */
+
+

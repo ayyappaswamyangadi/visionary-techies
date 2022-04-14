@@ -1,3 +1,7 @@
+/* *{
+  list-style: none;
+} */
+
 /* table{
     border: 5px solid;
     font-size: 20px;
@@ -27,12 +31,12 @@ td{
     
 }
 
-.styling{
+/* .styling{
     display: block;
     padding: 25px;
-}
+} */
 
-.imageStyling{
+/* .imageStyling{
     position: relative;
     display: flex;
     justify-content: center;
@@ -40,7 +44,7 @@ td{
     background-color: aqua;
     border-radius: 10px;
     margin: 10%;
-}
+} */
 
 .close{
     top: 20px;
@@ -51,4 +55,8 @@ td{
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+#list{
+    list-style: lower-alpha;
 }
