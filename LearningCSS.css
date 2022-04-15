@@ -1,27 +1,19 @@
 /* universal selector*/
 *{
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-align: center;
-  list-style: none;
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+  /* text-align: center; */
   
 }
 
 /* tag selector */
 
-a{
-    font-size: 50px;
-    /* background-color: aqua; */
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 5px;
-}
 
+/* 
 body{
     background-color: red;
-}
+} */
 
 p{
     background-color: green;
@@ -82,4 +74,59 @@ header{
     background-color: brown;
 } */
 
+.header{
+    background-color: green;
+}
 
+.header:hover{
+    background-color: blue;
+    color: red;
+}
+
+
+a{
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+a:link{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:visited{
+    color: red;
+}
+
+a:active{
+    color: yellow;
+}
+
+div{
+    font-size: 30px;
+}
+
+span{
+    text-decoration: line-through;
+}
+
+ul > li > footer {
+    color: black;
+}
+
+ul{
+    background-color: red;
+}
+
+ol div:only-child{
+    background-color: blue;
+}
+
+ul:last-child{
+background-color: aqua;
+}
+div ari:only-of-type{
+background-color: red;
+}

@@ -60,3 +60,21 @@ td{
 #list{
     list-style: lower-alpha;
 }
+
+input[type="text"]:disabled{
+    color: red;
+    background-color: green;
+}
+
+input[type="checkbox"]:checked{
+    box-shadow: 0px 0px 5px 5px red;
+}
+
+input[type="number"]:disabled{
+    background-color: red;
+}
+
+tr:nth-child(2){
+    color: red;
+}
+
